@@ -1,0 +1,95 @@
+// EDIT THIS FILE to customise the museum's writing and exhibit labels.
+export const museumContent = {
+  title: 'THE MUSEUM OF PALAK',
+  subtitle: 'A permanent collection of questionable significance.',
+  entranceNote: 'Some things cannot be explained. They can, however, be documented.',
+  grandGallery: [
+    {
+      number: '001',
+      title: 'A STUDY IN COMPOSURE',
+      classification: 'UNUSUALLY PHOTOGENIC',
+      caption: 'A remarkably rare specimen. The museum considers this image suitable for public display.',
+      image: '/assets/images/palak-01.jpg',
+      rotation: -3,
+    },
+    {
+      number: '002',
+      title: 'THE SECOND IMPRESSION',
+      classification: 'ARCHIVAL PORTRAIT',
+      caption: 'A second documented appearance. Further analysis has been deemed unnecessary.',
+      image: '/assets/images/palak-02.jpg',
+      rotation: 2.5,
+    },
+  ],
+  specimens: [
+    {
+      number: '002-A',
+      title: 'THE UNIDENTIFIED EXPRESSION',
+      classification: 'CLASSIFICATION PENDING',
+      caption: 'Experts have reviewed the available evidence. Experts have requested additional time.',
+      image: '/assets/images/palak-03.jpg',
+      stamp: 'UNDER REVIEW',
+      rotation: 4,
+    },
+    {
+      number: '002-B',
+      title: 'AN UNEXPECTED DEVELOPMENT',
+      classification: 'RESTRICTED OBSERVATION',
+      caption: 'The circumstances surrounding this photograph remain undocumented. The photographer has declined to comment.',
+      image: '/assets/images/palak-04.jpg',
+      stamp: 'EVIDENCE',
+      rotation: -5,
+    },
+    {
+      number: '002-C',
+      title: 'A RARE DISPLAY',
+      classification: 'SPECIMEN STATUS: UNCLEAR',
+      caption: 'The committee has agreed to preserve this image. The committee has not agreed on why.',
+      image: '/assets/images/palak-05.jpg',
+      stamp: 'DO NOT DISTURB',
+      rotation: 2,
+    },
+  ],
+  archiveFiles: [
+    {
+      id: 'FILE_001',
+      title: 'INCIDENT REPORTS',
+      tag: 'ONGOING INVESTIGATION',
+      body: 'Several incidents have been recorded. Their significance remains disputed. The archive recommends that visitors do not attempt to recreate any of them.',
+      note: 'Filed by the Department of Things That Happened Somehow.',
+    },
+    {
+      id: 'FILE_002',
+      title: 'CLASSIFIED OBSERVATIONS',
+      tag: 'PARTIALLY DECLASSIFIED',
+      body: 'Observation 01: the subject may display unusual levels of energy. Observation 02: the subject may also display the exact opposite. Both findings are considered accurate.',
+      note: 'Additional notes have been misplaced. Conveniently.',
+    },
+    {
+      id: 'FILE_003',
+      title: 'VISITOR COMPLAINTS',
+      tag: 'PUBLIC RECORD',
+      body: 'Complaint: “I came here to see a museum and somehow spent twelve minutes inspecting a photograph.” Resolution: the museum considers this a successful visit.',
+      note: 'Customer satisfaction is not currently being measured.',
+    },
+  ],
+  questions: [
+    { q: 'Is this behaviour documented?', a: 'Unfortunately, yes. The archive is quite extensive.' },
+    { q: 'Can the subject be classified?', a: 'Several departments have tried. None have returned with a convincing answer.' },
+    { q: 'Who approved this exhibition?', a: 'That information has been redacted for administrative reasons.' },
+    { q: 'Is the museum exaggerating?', a: 'The museum would never. The museum has excellent lawyers.' },
+  ],
+  finalTitle: 'THE SUBJECT, UNCLASSIFIED.',
+  finalMessage: 'After extensive documentation, observation and several questionable experiments, the museum has reached one conclusion:',
+  finalConclusion: 'THERE IS NO ADEQUATE CLASSIFICATION.',
+  birthdayMessage: "IT'S YOUR BIRTHDAY. WOO HOOOOO.",
+}
+
+export const interactions = [
+  'The button has been pressed. The button has no comment.',
+  'A committee has been formed to investigate this click.',
+  'The museum is now 3% more operational.',
+  'A small noise was heard somewhere in the building.',
+  'Your dedication has been noted in the visitor records.',
+  'Nothing happened. This is considered an important result.',
+]
